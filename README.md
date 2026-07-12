@@ -17,9 +17,10 @@
 
 1. `template/ai_wiki/` を対象プロジェクトのルートへコピー:
    `cp -r template/ai_wiki /path/to/project/`
-2. 対象プロジェクトの CLAUDE.md(または同等のエージェント指示ファイル)に1行追記:
+2. `ai_wiki/01-Purpose.md` に目的と主要な問いを記入(数行でよい)
+3. 対象プロジェクトの CLAUDE.md(または同等のエージェント指示ファイル)に1行追記:
    `ai_wiki/ は LLM 管理の Wiki。運用規約は ai_wiki/WIKI_RULES.md を参照。`
-3. 最初の指示: 「プロジェクトの状態をチェックして Wiki を初期化して(スコープ: README と主要設定)」
+4. 最初の指示: 「プロジェクトの状態をチェックして Wiki を初期化して(スコープ: README と主要設定)」
 
 運用の詳細は [template/ai_wiki/WIKI_RULES.md](template/ai_wiki/WIKI_RULES.md) を参照。
 
