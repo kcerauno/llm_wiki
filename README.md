@@ -1,4 +1,4 @@
-# wk_llm_wiki — 汎用LLM Wiki
+# llm_wiki — 汎用LLM Wiki
 
 どのプロジェクトにも配置できる、LLM(Claude Code 等)が管理するプロジェクト内 Wiki の
 テンプレートと運用規約を開発するプロジェクト。
