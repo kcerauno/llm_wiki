@@ -34,7 +34,7 @@
 |---|---|---|
 | **Sync** | プロジェクト実体と Wiki の突き合わせ・更新(実体が正) | `ai_wiki の Sync をして` |
 | **Record** | いまの調査・作業の結果を investigations/ に新規記録 | `ai_wiki に Record して:ここまでの調査結果` |
-| **Promote** | 整理。調査メモの concepts/ への昇格・archive への退避・承認済み関連リンクの反映 | `ai_wiki の Promote をして` |
+| **Promote** | 整理。調査メモを主題単位に再構成(分割・統合)して concepts/ へ昇格・archive への退避・承認済み関連リンクの反映 | `ai_wiki の Promote をして` |
 | **Lint** | Wiki 内部の健全性チェック(リンク切れ・重複・矛盾など)。報告のみで修正しない | `ai_wiki の Lint をして` |
 | **Synthesize** | 全知見を横断して共通パターン・矛盾・ギャップ・新仮説を 99-Insights.md に抽出 | `ai_wiki の Synthesize をして` |
 
