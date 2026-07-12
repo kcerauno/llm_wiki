@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//**)",
+      "Edit(ai_wiki/**)",
+      "Write(ai_wiki/**)"
+    ],
+    "deny": [
+      "Edit(src/**)",
+      "Edit(docs/**)",
+      "Edit(README.md)",
+      "Edit(CLAUDE.md)",
+      "Write(src/**)",
+      "Write(docs/**)",
+      "Write(README.md)",
+      "Write(CLAUDE.md)"
+    ]
+  }
+}
